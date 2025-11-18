@@ -1,0 +1,28 @@
+#click:hover{
+  /* background: linear-gradient(40deg, red,green,yellow,orange); */
+  color: #fff;
+  border-radius: 102px;
+  cursor: pointer;
+  transform: translateY(20px);
+}
+#click{
+  background-color: rgb(0, 64, 255);
+  border-radius: 102px;
+  padding: 15px 70px;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 0.3s;
+}
+h2{
+  background-color: rgb(255, 0, 0);
+  padding: 20px 50px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 10px 15px 5px 0px;
+}
+h2:hover{
+  background: linear-gradient(45deg, red, blue, green);
+}
